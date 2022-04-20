@@ -18,7 +18,7 @@ public class atividade1904 {
         listadenomes[3] = "Rubens";
         listadenomes[4] = "Gabriel";
 
-        System.out.println("Digite um nome");
+        System.out.println("Digite o seu nome");
         String nome = input.next();
 
         for (int i = 0; i < listadenomes.length; i++) {
