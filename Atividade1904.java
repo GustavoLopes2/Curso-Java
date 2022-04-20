@@ -1,12 +1,8 @@
 package senac2022;
 
-import com.sun.source.tree.LambdaExpressionTree;
-
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
-public class atividade1904 {
+public class Atividade1904 {
     public static void main(String args[]) {
 
         Scanner input = new Scanner(System.in);

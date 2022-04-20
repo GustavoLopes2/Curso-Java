@@ -2,7 +2,7 @@ package senac2022;
 
 import java.util.Scanner;
 
-public class terceiraatvidade1304 {
+public class TerceiraAtvidade1304 {
     public static void main (String args []) {
         Scanner input = new Scanner(System.in);
 
