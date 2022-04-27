@@ -2,30 +2,58 @@ package senac2022;
 
 public class Produto {
 
-    private String nome = "Snickers";
-    private String descrição = "Alimento para matar a fome!";
-    private double valor = 3.99;
-    private double valorNaPromoção = 2.99;
-    private String dataDeVencimento = "14/08/2022";
-    private int codigoDeBarra = 1256867424;
+    private String nome;
+    private String descricao;
+    private double valor;
+    private double valorNaPromocao;
+    private String dataDeVencimento;
+    private int codigoDeBarra;
 
     public String getNome() {
         return nome;
     }
-    public String getDescrição() {
-        return descrição;
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
+
+    public String getDescrição() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
     public double getValor() {
         return valor;
     }
-    public double getValorNaPromoção() {
-        return valorNaPromoção;
+
+    public void setValor(double valor) {
+        this.valor = valor;
     }
+
+    public double getValorNaPromocao() {
+        return valorNaPromocao;
+    }
+
+    public void setValorNaPromocao(double valorNaPromocao) {
+        this.valorNaPromocao = valorNaPromocao;
+    }
+
     public String getDataDeVencimento() {
         return dataDeVencimento;
     }
+
+    public void setDataDeVencimento(String dataDeVencimento) {
+        this.dataDeVencimento = dataDeVencimento;
+    }
+
     public int getCodigoDeBarra() {
         return codigoDeBarra;
     }
 
+    public void setCodigoDeBarra(int codigoDeBarra) {
+        this.codigoDeBarra = codigoDeBarra;
+    }
 }
