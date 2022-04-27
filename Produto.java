@@ -1,6 +1,7 @@
 package senac2022;
 
 public class Produto {
+
     private String nome = "Snickers";
     private String descrição = "Alimento para matar a fome";
     private double valor = 3.99;
