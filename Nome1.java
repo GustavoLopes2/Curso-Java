@@ -1,6 +1,6 @@
 package senac2022;
 
-public class Nome {
+public class Nome1 {
     private String nome = "Gustavo";
     private int notaDoAluno = 9;
     private String idade = "17";
