@@ -11,7 +11,7 @@ public class MainProduto {
         produto.setDataDeVencimento("Data de vencimento 14/08/2022");
         produto.setCodigoDeBarra(16235772);
 
-        System.out.println(produto.getNome() + "\n" + produto.getDescrição() + "\n" + produto.getValor() + "\n" + produto.getValorNaPromocao() + "\n" + produto.getDataDeVencimento() + "\n" +
+        System.out.println(produto.getNome() + "\n" + produto.getDescricao() + "\n" + produto.getValor() + "\n" + produto.getValorNaPromocao() + "\n" + produto.getDataDeVencimento() + "\n" +
                 produto.getCodigoDeBarra());
     }
 }
