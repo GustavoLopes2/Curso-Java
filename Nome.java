@@ -11,20 +11,17 @@ public class Nome {
     public void setNome(String nome) {
         this.nome = nome;
     }
-
     public int getNotaDoAluno() {
         return  notaDoAluno;
     }
-
     public void setNotaDoAluno(int notaDoAluno) {
         this.notaDoAluno = notaDoAluno;
     }
-
     public String getIdade() {
         return idade;
     }
-
     public void setIdade(String idade) {
+
         this.idade = idade;
     }
 }
