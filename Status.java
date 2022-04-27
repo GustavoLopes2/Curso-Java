@@ -13,7 +13,7 @@ public class Status {
 
         ajustar.colete = "COLETE DE COURO COM ESPINHOS, def: +6 / atk: +3\n";
         ajustar.botas = " BOTAS DE COELHO DA NEVE, speed: +5 / def: +2\n";
-        ajustar.capacete = " CAPACE DO VISIONARIO CHEFE, def: +4 / percepcao: +2\n";
+        ajustar.capacete = " CAPACETE DO VISIONARIO CHEFE, def: +4 / percepcao: +2\n";
         ajustar.luvas = " LUVAS DO SORRATEIRO, atk: +2 / speed: +3\n";
         ajustar.espada = " ESPADA DE ACO REFORJADO, atk: +9 / alcance: +3\n";
 
