@@ -1,6 +1,6 @@
 package senac2022;
 
-public class Produto {
+public class Produto extends ProdutoAbstract {
 
     private String nome;
     private String descricao;
@@ -8,6 +8,31 @@ public class Produto {
     private double valorNaPromocao;
     private String dataDeVencimento;
     private int codigoDeBarra;
+
+    @Override
+    public void salvar() {
+
+    }
+
+    @Override
+    public Produto buscarProdutoPorId() {
+        return null;
+    }
+
+    @Override
+    public void excluir() {
+
+    }
+
+    @Override
+    public void editar() {
+
+    }
+
+    @Override
+    public void listar() {
+
+    }
 
     public String getNome() {
         return nome;
