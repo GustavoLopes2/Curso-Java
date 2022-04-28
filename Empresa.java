@@ -18,19 +18,43 @@ public class Empresa extends AbstractEmpresaPessoa {
     @Override
     public void salvar() {
 
+        Empresa empresa = new Empresa();
+        empresa.setNomeDaEmpresa("3G");
+        empresa.setCnpj("0000235908959");
+        empresa.setInscricaoEstadual("438385701110");
+        empresa.setDataDeAbertura("19/04/1989");
+        empresa.setEmail("funilaria3G@gmail.com");
+        empresa.setEndereco("Avenia Esmeraldas");
+        empresa.setNumero(4001);
+        empresa.setBairro("Jardim Tangara");
+        empresa.setCidade("Marilia");
+        empresa.setEstado("Sao Paulo");
+        empresa.setTelefone(1433164106);
+        empresa.setCelular("(11) 99351-5312");
+
+        System.out.println("Empresa Cadastrada!");
+
+               System.out.println(empresa.getNomeDaEmpresa() + "\n" + empresa.getCnpj() + "\n" + empresa.getInscricaoEstadual() + "\n" + empresa.getDataDeAbertura() + "\n" + empresa.getEmail() + "\n" +
+               empresa.getEndereco() + "\n" + empresa.getNumero() + "\n" + empresa.getBairro() + "\n" + empresa.getCidade() + "\n" + empresa.getCidade() + "\n" + empresa.getEstado() + "\n" + empresa.getTelefone()
+        + "\n" + empresa.getCelular());
+
+
     }
 
     @Override
     public void editar() {
+        System.out.println("Empresa editada!");
 
     }
 
     @Override
     public void excluir() {
+        System.out.println("Empresa excluida!");
 
     }
     @Override
     public void listar() {
+        System.out.println("Empresa listada!");
 
     }
 

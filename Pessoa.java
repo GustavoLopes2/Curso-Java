@@ -15,20 +15,38 @@ public class Pessoa extends AbstractEmpresaPessoa {
     @Override
     public void salvar() {
 
+        System.out.println("Pessoa salva!");
+
+        Pessoa pessoa = new Pessoa();
+
+        pessoa.setNomeDaPessoa("Gustavo");
+        pessoa.setCpf("123.456.789-11");
+        pessoa.setDataDeNascimento("13/12/1987");
+        pessoa.setSigno("Leao");
+        pessoa.setSexo("Masculino");
+        pessoa.setAltura(1.86);
+        pessoa.setPeso("78 Kg");
+        pessoa.setReligiao("Cristao");
+
+        System.out.println(pessoa.getNomeDaPessoa() + "\n" + pessoa.getCpf() + "\n" + pessoa.getDataDeNascimento() + "\n" + pessoa.getSigno() + "\n" + pessoa.getSexo() + "\n" + pessoa.getAltura() + "\n" + pessoa.getPeso() +
+                "\n" + pessoa.getReligiao());
     }
 
     @Override
     public void editar() {
+        System.out.println("Pessoa editada com sucesso!");
 
     }
 
     @Override
     public void excluir() {
+        System.out.println("Pessoa excluida com sucesso!");
 
     }
 
     @Override
     public void listar() {
+        System.out.println("Pessoa listada com sucesso!");
 
     }
 
