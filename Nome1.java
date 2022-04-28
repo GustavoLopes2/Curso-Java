@@ -11,7 +11,6 @@ public class Nome1 {
     public void setNome(String nome) {
         this.nome = nome;
     }
-
     public int getNotaDoAluno() {
         return  notaDoAluno;
     }
@@ -21,6 +20,7 @@ public class Nome1 {
     public String getIdade() {
         return idade;
     }
+
     public void setIdade(String idade) {
         this.idade = idade;
     }
