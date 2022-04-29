@@ -2,23 +2,22 @@ package senac2022;
 
 public class Pessoa extends AbstractEmpresaPessoa {
 
-    public String nomeDaPessoa;
-    public String cpf;
-    public String rg;
-    public String dataDeNascimento;
-    public String signo;
-    public String sexo;
-    public double altura;
-    public String peso;
-    public String religiao;
+    private String nomeDaPessoa;
+    private String cpf;
+    private String rg;
+    private String dataDeNascimento;
+    private String signo;
+    private String sexo;
+    private double altura;
+    private String peso;
+    private String religiao;
 
     @Override
     public void salvar() {
 
-        System.out.println("Pessoa salva!");
-
         Pessoa pessoa = new Pessoa();
 
+        pessoa.setRg("43.123.512");
         pessoa.setNomeDaPessoa("Gustavo");
         pessoa.setCpf("123.456.789-11");
         pessoa.setDataDeNascimento("13/12/1987");
@@ -28,25 +27,24 @@ public class Pessoa extends AbstractEmpresaPessoa {
         pessoa.setPeso("78 Kg");
         pessoa.setReligiao("Cristao");
 
-        System.out.println(pessoa.getNomeDaPessoa() + "\n" + pessoa.getCpf() + "\n" + pessoa.getDataDeNascimento() + "\n" + pessoa.getSigno() + "\n" + pessoa.getSexo() + "\n" + pessoa.getAltura() + "\n" + pessoa.getPeso() +
-                "\n" + pessoa.getReligiao());
+        System.out.println("Pessoa cadastrada com sucesso!");
     }
 
     @Override
     public void editar() {
-        System.out.println("Pessoa editada com sucesso!");
+        System.out.println("Editado com sucesso!");
 
     }
 
     @Override
     public void excluir() {
-        System.out.println("Pessoa excluida com sucesso!");
+        System.out.println("Excluido com sucesso!");
 
     }
 
     @Override
     public void listar() {
-        System.out.println("Pessoa listada com sucesso!");
+        System.out.println("Busca efetivada com sucesso!");
 
     }
 

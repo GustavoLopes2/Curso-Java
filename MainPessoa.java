@@ -4,9 +4,11 @@ public class MainPessoa {
     public static void main(String[] args) {
 
         Pessoa pessoa = new Pessoa();
-        pessoa.salvar();
+        //pessoa.salvar();
+        //pessoa.excluir();
+        //pessoa.editar();
+        //pessoa.listar();
 
-//        System.out.println(pessoa.getNomeDaPessoa() + "\n" + pessoa.getCpf() + "\n" + pessoa.getDataDeNascimento() + "\n" + pessoa.getSigno() + "\n" + pessoa.getSexo() + "\n" + pessoa.getAltura() + "\n" + pessoa.getPeso() +
-//                "\n" + pessoa.getReligiao());
+
     }
 }
