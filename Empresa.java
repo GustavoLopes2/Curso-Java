@@ -2,18 +2,18 @@ package senac2022;
 
 public class Empresa extends AbstractEmpresaPessoa {
 
-    public String nomeDaEmpresa;
-    public String cnpj;
-    public String inscricaoEstadual;
-    public String dataDeAbertura;
-    public String email;
-    public String endereco;
-    public int numero;
-    public String bairro;
-    public String cidade;
-    public String estado;
-    public double telefone;
-    public String celular;
+    private String nomeDaEmpresa;
+    private String cnpj;
+    private String inscricaoEstadual;
+    private String dataDeAbertura;
+    private String email;
+    private String endereco;
+    private int numero;
+    private String bairro;
+    private String cidade;
+    private String estado;
+    private double telefone;
+    private String celular;
 
     @Override
     public void salvar() {
