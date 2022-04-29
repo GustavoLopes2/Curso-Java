@@ -35,7 +35,7 @@ public class Empresa extends AbstractEmpresaPessoa {
         System.out.println("Empresa Cadastrada!");
 
                System.out.println(empresa.getNomeDaEmpresa() + "\n" + empresa.getCnpj() + "\n" + empresa.getInscricaoEstadual() + "\n" + empresa.getDataDeAbertura() + "\n" + empresa.getEmail() + "\n" +
-               empresa.getEndereco() + "\n" + empresa.getNumero() + "\n" + empresa.getBairro() + "\n" + empresa.getCidade() + "\n" + empresa.getCidade() + "\n" + empresa.getEstado() + "\n" + empresa.getTelefone()
+               empresa.getEndereco() + "\n" + empresa.getNumero() + "\n" + empresa.getBairro() + "\n" + empresa.getCidade() + "\n" + empresa.getEstado() + "\n" + empresa.getTelefone()
         + "\n" + empresa.getCelular());
 
 
