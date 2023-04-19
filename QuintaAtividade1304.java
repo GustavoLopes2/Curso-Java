@@ -26,6 +26,33 @@ public class QuintaAtividade1304 {
 
 }
 
+//MÉTODO ATUALIZADO COM SWTICH/CASE:
+
+// public class QuintaAtividade1304 {
+//     public static void main(String args[]) {
+//         Scanner input = new Scanner(System.in);
+
+//         System.out.println("Quantas horas voce trabalhou como professor na escola APRENDER?");
+//         int quantashoras = input.nextInt();
+//         System.out.println("Qual o seu nivel de Professor? (1,2,3)");
+//         int nivel = input.nextInt();
+//         double resultado = 0;
+
+//         switch (nivel) {
+            
+//             case 1 :
+//                 resultado = 12 * quantashoras;
+//                 break;
+//             case 2 :
+//                 resultado = 17 * quantashoras;
+//                 break;
+//             case 3 :
+//                 resultado = 25 * quantashoras;
+//                 break;
+//         }
+//         System.out.println("Seu salario eh R$" + resultado + " e seu nivel e " + nivel);
+//     }
+// }
 
 
 
